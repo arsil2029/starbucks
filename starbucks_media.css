@@ -1,0 +1,453 @@
+@media only screen and (min-width: 658px) {
+  /* For desktop: */
+  .col-xl-1 {width: 8.33%;}
+  .col-xl-2 {width: 16.66%;}
+  .col-xl-3 {width: 25%;}
+  .col-xl-4 {width: 33.33%;}
+  .col-xl-5 {width: 41.66%;}
+  .col-xl-6 {width: 50%;}
+  .col-xl-7 {width: 58.33%;}
+  .col-xl-8 {width: 66.66%;}
+  .col-xl-9 {width: 75%;}
+  .col-xl-10 {width: 83.33%;}
+  .col-xl-11 {width: 91.66%;}
+  .col-xl-12 {width: 100%;}
+}
+
+
+
+  @media only screen and (max-width: 657px) {
+    /* For teblet: */
+    .col-m-1 {width: 8.33%;}
+    .col-m-2 {width: 16.66%;}
+    .col-m-3 {width: 25%;}
+    .col-m-4 {width: 33.33%;}
+    .col-m-5 {width: 41.66%;}
+    .col-m-6 {width: 50%;}
+    .col-m-7 {width: 58.33%;}
+    .col-m-8 {width: 66.66%;}
+    .col-m-9 {width: 75%;}
+    .col-m-10 {width: 83.33%;}
+    .col-m-11 {width: 91.66%;}
+    .col-m-12 {width: 100%;}
+
+   
+
+.headcon .logo2
+{
+    max-width: 120px;
+}
+
+.headcon .nav ul li
+{
+    
+    margin-right: 20px;    
+
+}
+.headcon .nav ul li a
+{
+    text-decoration: none;
+    color: #333;
+    font-weight: 700;
+    font-size: 15px;
+}
+.content .contentcon
+{
+  padding: 80px 0px;
+}
+.content .contentcon .text h2
+{
+    font-size: 30px;
+    font-weight: 600;
+    color: #333;
+}
+.content .contentcon .text span
+{
+    font-weight: 800;
+    font-size: 32px;
+    color: #017143;
+}
+.content .contentcon .text p
+{
+    color: #333;
+
+}
+.content .contentcon .text a
+{
+    display: inline-block;       
+    text-decoration: none;
+    color: #fff;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #017143;
+    border-radius: 20px;
+}
+.img
+{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 10px;
+}
+.img img
+{
+    width: 200px;    
+}
+
+.social li 
+{
+    list-style: none;
+    cursor: pointer;
+}
+.social ul li img
+{
+    /* width: 20px; */
+    margin: 0px 0px;
+    transform: scale(0.4);
+    filter: invert(1);
+}
+.social ul li .fb
+{
+    margin-left: 10px;
+}
+
+.icon-coffee
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+.icon-coffee ul
+{
+    margin: 0;
+    padding: 0;
+
+}
+.icon-coffee ul li
+{
+    list-style: none;
+    display:inline-block;
+    margin: 10px;
+    cursor: pointer;
+    transition: 0.2s;  
+    transform: translateY(70%)
+}
+.icon-coffee ul li img
+{
+    width: 30px;
+    
+  
+}
+.icon-coffee ul li:hover
+{
+  transform: translateY(60%)
+}
+.circle
+{
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 400px;
+    width: 100%;
+    background: #017143;
+    clip-path: circle(300px at right 400px);
+    z-index: -1;
+}
+.swiper-slide img {
+  display: block;
+  width: 250px;
+  height: 300px;
+  object-fit: cover;
+}
+
+.swiper-slide img {
+    display: block;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+  }
+
+
+
+
+  .about .aboutcon
+  {
+      padding-top: 40px;
+      display: flex;
+      justify-content: space-between;
+  }
+  .about .aboutcon .slide1
+  {
+     display: flex;
+     margin: 5px 0px;
+     width: 48%;
+     flex-direction: column;
+     justify-content: space-between;
+      /* border: 1px solid #017143; */
+      border-radius: 10px;     
+      box-shadow:-5px -5px 8px rgba(0,0,0, .16), 5px 5px 8px rgba(0,0,0, .16);
+      
+  }
+  .about .aboutcon .slide1 img
+  {
+      height: 200px;
+      width: 100%;
+      
+  }
+  .about .aboutcon .slide1 .text
+  {
+      padding: 5px 5px;
+      
+       
+  }
+  .about .aboutcon .slide1 .text h3
+  {
+      font-size: 20px;
+     
+  }
+  
+  .about .aboutcon .slide1 .lorem
+  {
+      
+      padding-bottom: 5px;
+     
+  }
+  .about .aboutcon .slide1 .bag
+  {
+      padding: 5px 10px;
+     
+
+  }
+  .about .aboutcon .slide1 .bag h4
+  {
+      font-size: 20px;
+      color: #351c04f6;
+     
+  }
+  .about .aboutcon .slide1 .bag h4 i{
+      font-size: 17px;
+      font-style: italic;
+     
+      padding: 0px 0px;
+      margin-right: 4px;
+      color:#351c04f6;
+      background: transparent;
+  }
+  .about .aboutcon .slide1 .bag div i
+  {
+     
+      font-size: 17px;      
+      
+        
+  }
+  .about .aboutcon .slide1 .bag div i:hover
+  {
+     
+      border-radius: 6px;
+      
+  }
+  .slide2
+  {
+      margin-top: 10px;
+  }
+
+
+  }
+
+
+  @media only screen and (max-width: 480px) {
+    /* For mobile: */
+    .col-xs-1 {width: 8.33%;}
+    .col-xs-2 {width: 16.66%;}
+    .col-xs-3 {width: 25%;}
+    .col-xs-4 {width: 33.33%;}
+    .col-xs-5 {width: 41.66%;}
+    .col-xs-6 {width: 50%;}
+    .col-xs-7 {width: 58.33%;}
+    .col-xs-8 {width: 66.66%;}
+    .col-xs-9 {width: 75%;}
+    .col-xs-10 {width: 83.33%;}
+    .col-xs-11 {width: 91.66%;}
+    .col-xs-12 {width: 100%;}
+
+
+    .headcon .logo2
+{
+  max-width: 48px;
+}
+
+.headcon .nav ul li
+{
+    
+    margin-right: 10px;    
+
+}
+.headcon .nav ul li a
+{
+   
+    font-size: 9px;
+}
+.content .contentcon
+{
+  padding: 4px 0px;
+}
+.content .contentcon .text h2
+{
+  font-size: 41px;
+   
+}
+.content .contentcon .text span
+{
+    
+    font-size: 60px;
+    
+}
+.content .contentcon .text p
+{
+    color: #333;
+    font-size: 20px;
+
+}
+.content .contentcon .text a
+{
+    display: inline-block;       
+    text-decoration: none;
+    color: #fff;
+    margin-top: 20px;
+    padding: 8px 20px;
+    background: #017143;
+    border-radius: 20px;
+}
+.img
+{
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+    margin-top: 10px;
+}
+.img img
+{
+    width: 200px;    
+}
+
+.social li 
+{
+    list-style: none;
+    cursor: pointer;
+}
+.social ul li img
+{
+    /* width: 20px; */
+    margin: 0px 0px;
+    transform: scale(0.4);
+    filter: invert(1);
+}
+.social ul li .fb
+{
+    margin-left: 10px;
+}
+
+.icon-coffee
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    
+    
+}
+.icon-coffee ul
+{
+    margin: 0;
+    padding: 0;
+
+}
+.icon-coffee ul li
+{
+    list-style: none;
+    display:inline-block;
+    margin: 40px 10px 0px 40px;
+    cursor: pointer;
+    transition: 0.2s;  
+    transform: translateY(70%);
+}
+.icon-coffee ul li img
+{
+    width: 30px;
+    
+  
+}
+.icon-coffee ul li:hover
+{
+  transform: translateY(60%)
+}
+.circle
+{
+    
+    top: 324px;
+    
+}
+.swiper-slide img {
+  display: block;
+  width: 100px;
+  height: 150px;
+  object-fit: cover;
+}
+.slider
+{
+    margin: 22px 0px;
+}
+
+
+
+.about .aboutcon
+  {
+      padding-top: 40px;
+      display: flex;
+      justify-content: space-between;
+  }
+  .about .aboutcon .slide1
+  {
+    
+     width: 100%;
+     margin: 8px 0px;
+    
+      
+  }
+  .about .aboutcon .slide1 img
+  {
+      height: 350px;
+      
+  }
+  
+  .slide2
+  {
+      margin-top: 10px;
+  }
+
+
+
+
+}
+ 
+  
+  
+  
+  
+  
+  
+  
+  
+
+  
+
+
+  
+ 
+
+ 
